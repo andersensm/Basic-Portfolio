@@ -10,6 +10,11 @@ a:link {
   color: #777777;
   text-decoration: none;
 }
+a:visited {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  text-decoration: none;
+}
 a:hover {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: black;
@@ -90,12 +95,19 @@ body {
   float: left;
 }
 .Contact {
-margin-top: 30px;
-font-size: 18px;
-float: right;
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 18px;
+  float: right;
 }
-.Portfolio, .About {
-  margin: 20px;
+.Portfolio {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 18px;
+  float: right;
+}
+.About {
+  margin-left: 20px;
   margin-top: 30px;
   font-size: 18px;
   float: right;
