@@ -1,6 +1,6 @@
 h1, h2, h3, h4 {
   font-family: 'Georgia', Times, Times New Roman, serif;
-  color: #8BB1C4;
+  color: #2AB546;
 }
 h3 {
   text-align: center;
@@ -80,7 +80,7 @@ p {
   margin-top: 25px;
   border-width: 5px;
   background-color: #ffffff;
-  border-color: #dddddd
+  border-color: #dddddd;
 }
 main {
   border-color: #dddddd;
@@ -90,6 +90,7 @@ main {
 body {
   background-image: url("../images/dust_scratches.png");
   background-color: black;
+  margin: 0;
 }
 .white {
   margin-top: 15px;
@@ -106,7 +107,7 @@ body {
   padding-top: 20px;
   height: 80px;
   width: 250px;
-  background-color: #8BB1C4;
+  background-color: #2AB546;
   float: left;
 }
 .Contact {
@@ -117,16 +118,32 @@ body {
 }
 .Portfolio {
   margin-left: 20px;
+  font-size: 18px;
   margin-top: 30px;
-  margin-right: 25px;
+  float: right;
+}
+.Portfolio1 {
   font-size: 18px;
   float: right;
+  padding-right: 20px;
+  border-right-style: solid;
+  border-right-color: grey;
+  border-right-width: 1.25px;
+  height: 35px;
 }
 .About {
   margin-top: 30px;
-  margin-right: 25px;
   font-size: 18px;
   float: right;
+}
+.About1 {
+  font-size: 18px;
+  float: right;
+  padding-right: 20px;
+  border-right-style: solid;
+  border-right-color: grey;
+  border-right-width: 1.25px;
+  height: 35px;
 }
 .ProfilePicture {
   width: 200px;
@@ -156,16 +173,14 @@ margin-left: 30px;
   margin-left: 5px;
 }
 .footer {
-  position: fixed;
+  position: static;
   border-top-style: solid;
-  border-top-color: #8BB1C4;
+  border-top-color: #2AB546;
   border-top-width: 7px;
   background-color: #666666;
-  min-width: 100%;
+  width: 100%;
   height: 100px;
-  left: 0;
   bottom: 0;
-  right: 0;
   text-align: center;
   z-index: 5;
 }
@@ -201,6 +216,7 @@ margin-left: 30px;
   color: #777777;
   padding: 0;
   border-width: 0.5px;
+  font-style: italic;
 }
 .messageBox {
   width: 100%;
@@ -211,6 +227,7 @@ margin-left: 30px;
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
   padding: 0px;
+  font-style: italic;
 }
 .submitName {
   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -219,9 +236,10 @@ margin-left: 30px;
   text-align: center;
   height: 40px;
   width: 100px;
-  background-color: #8BB1C4;
+  background-color: #2AB546;
   border-style: none;
   margin: 16px 20px 16px 0px;
+  border-radius: 10px;
 }
 .beach, .burger, .music, .nightlife, .dog {
   margin: 20px 20px 20px 40px;
