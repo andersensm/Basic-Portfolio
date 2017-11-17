@@ -146,9 +146,6 @@ nav {
 .Portfolio1, .About1 {
   float: right;
   font-size: 18px;
-  border-right-style: solid;
-  border-right-color: grey;
-  border-right-width: 1.25px;
   text-decoration: none;
   width: 33.3%;
   box-sizing: border-box;
